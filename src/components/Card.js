@@ -4,7 +4,7 @@ const Card = ({name, email, id}) => {
 	// const {name, email, id} = props; 
 	// can also use props.name but we defined const name
 	return (
-		<div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
+		<div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-4'>
 			<img alt='robots' src={`https://robohash.org/${id}?100x100`}/>
 			<div>
 				<h2>{name}</h2> 
